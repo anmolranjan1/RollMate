@@ -1,7 +1,7 @@
-# Prioritize Dart
+# Treat Dart as the primary language
 *.dart linguist-language=Dart
 
-# Mark platform-specific files as vendored (non-primary languages)
+# Mark platform-specific files as vendored
 *.cpp linguist-vendored
 *.h linguist-vendored
 *.m linguist-vendored
@@ -14,9 +14,10 @@
 *.gradle linguist-vendored
 *.xml linguist-vendored
 
-# Ignore entire ios and android directories
+# Ignore entire ios, android, and linux directories from language stats
 ios/** linguist-vendored
 android/** linguist-vendored
+linux/** linguist-vendored
 
-# Ignore build-related files
+# Exclude build directory
 build/** linguist-vendored
