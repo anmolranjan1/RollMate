@@ -10,3 +10,7 @@
 *.swift linguist-vendored
 *.cmake linguist-vendored
 *.html linguist-vendored
+
+# Exclude ios and android directories from language stats
+ios/** linguist-vendored
+android/** linguist-vendored
