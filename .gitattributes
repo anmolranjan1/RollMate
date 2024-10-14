@@ -13,6 +13,7 @@
 *.kotlin linguist-vendored
 *.gradle linguist-vendored
 *.xml linguist-vendored
+*.html linguist-vendored
 
 # Ignore entire ios, android, and linux directories from language stats
 ios/** linguist-vendored
